@@ -10,7 +10,7 @@ type: item
 image: pasta.jpg
 category_id: farangi
 ingredients_fa: [سس, پاستا, سبزی]
-ingredients_en: [سس, پاستا, سبزی]
-ingredients_ar: [سس, پاستا, سبزی]
+ingredients_en: [sos, pasta, sabzi]
+ingredients_ar: [سsس, پاستا, سبزی]
 ---
 
