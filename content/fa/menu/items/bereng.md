@@ -10,5 +10,8 @@ type: item
 image: de-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg
 category_id: irani
 vegan: true
+ingredients_fa: [سس, پاستا, سبزی]
+ingredients_en: [sos, pasta, sabzi]
+ingredients_ar: [سsس, پاستا, سبزی]
 ---
 
