@@ -1,6 +1,6 @@
 ---
-title: "غذای ایرانی"
-weight: 2
+title: "ایرانی"
+weight: 5
 header_menu: true
 type: categury
 category_id: irani

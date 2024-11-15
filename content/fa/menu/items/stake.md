@@ -1,7 +1,7 @@
 ---
-name_fa: "پاستا"
-name_en: "pasta"
-name_ar: "الپاستا"
+name_fa: "استیک"
+name_en: "stake"
+name_ar: "ال استیک"
 description_fa: "تحیه شده از گوشت تازه گوسفند و گوساله"
 description_en: "ksdjf dfgj dfklg dflkgl"
 description_ar: "نمیبتلکن یبکل یبکلم ک"
@@ -13,4 +13,5 @@ ingredients_fa: [سس, پاستا, سبزی]
 ingredients_en: [sos, pasta, sabzi]
 ingredients_ar: [سsس, پاستا, سبزی]
 ---
+
 

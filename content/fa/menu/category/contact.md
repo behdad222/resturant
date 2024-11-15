@@ -1,7 +1,6 @@
 ---
 title: "ارتباط"
-weight: 98
-header_menu: true
+weight: 100
 type: categury
 ---
 

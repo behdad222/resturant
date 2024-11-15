@@ -1,7 +1,7 @@
 ---
-name_fa: "پاستا"
-name_en: "pasta"
-name_ar: "الپاستا"
+name_fa: "برگر"
+name_en: "berger"
+name_ar: "البرگر"
 description_fa: "تحیه شده از گوشت تازه گوسفند و گوساله"
 description_en: "ksdjf dfgj dfklg dflkgl"
 description_ar: "نمیبتلکن یبکل یبکلم ک"
