@@ -9,8 +9,8 @@ header_use_video: false
 header_logo: "images/chef-hat.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "رستوران هیران"
-header_subheadline: "<b>فرنگی</b> و <b>ایرانی</b>"
+header_headline: "هیران"
+header_subheadline: ""
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry
