@@ -39,7 +39,7 @@ title_guard = false
 # Another "title" :-). This one is used as the site_name on the Hugo's internal
 # opengraph structured data template.
 # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title = "تست"
+title = "تست تایتل"
 
 # The "description" of your website. This is used in the meta data of your generated html.
 description = "رستوران با غذاهای خوشمزه"
@@ -53,7 +53,7 @@ show_current_lang = true
 
 # A "copyright"-line to be added at the bottom of the page.
 # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-copyright = "© Jane Doe"
+copyright = "Behdad Abedi"
 
 # This theme will, by default, inject a design-by-line at the bottom of the page.
 # You can turn it off, but we would really appreciate if you don’t :-)
@@ -77,7 +77,7 @@ showContactIcons = true
 showFooterLinks = false
 
 [params.meta]
-    keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
+    keywords = "hiran, هیران, کافه, رستوران, هتل"
 
 [[params.contacts]]
     label = "تلفن"
@@ -87,13 +87,13 @@ showFooterLinks = false
 
 [[params.contacts]]
     label = "آدرس"
-    value = "مهرشهر"
-    url = "mailto:mail@janedoe.com"
+    value = "مهرشهر - خیابان ۱۱۱ - نبش عرفان"
+    url = "geo:35.800922, 50.904596"
     icon = "fa fa-envelope"
 
 # Add additional contacts here!
 # [[params.contacts]]
-#     label = ""
+#     label = "گوگل مپ"
 #     value = ""
 #     url = ""
 #     icon = ""
