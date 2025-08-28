@@ -1,6 +1,6 @@
 ---
 title: "قلیان"
-weight: 25
+weight: 80
 header_menu: true
 type: categury
 category_id: ghelyan

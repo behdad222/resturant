@@ -1,6 +1,6 @@
 ---
 title: "قنادی"
-weight: 15
+weight: 75
 header_menu: true
 type: categury
 category_id: ghanadi

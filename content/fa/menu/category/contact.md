@@ -1,9 +1,9 @@
 ---
-title: "ارتباط"
-weight: 100
+title: "اطلاعات رستوران"
+weight: 1000
 type: categury
 ---
 
 {{<contact_list>}}
 
-ارتباط با ما
+ساعات کاری همه روزه از ۸ تا ۲۴

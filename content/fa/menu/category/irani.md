@@ -1,6 +1,6 @@
 ---
 title: "ایرانی"
-weight: 5
+weight: 50
 header_menu: true
 type: categury
 category_id: irani
