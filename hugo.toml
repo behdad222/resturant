@@ -81,8 +81,8 @@ showFooterLinks = false
 
 [[params.contacts]]
     label = "تلفن"
-    value = "+۲۱ ۴۴۴۴ ۵۵۵۵۵"
-    url = "tel:+49 1111 555555"
+    value = "+۲۱ ۰۰۰۰ ۰۰۰۰"
+    url = "tel:+49 ۰۰۰۰ ۰۰۰۰"
     icon = "fa fa-phone"
 
 [[params.contacts]]
