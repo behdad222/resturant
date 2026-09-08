@@ -1,8 +1,7 @@
 ---
-title: "ایرانی"
+title: "چیل بار"
 weight: 50
 header_menu: true
 type: categury
-category_id: irani
+category_id: chill_bar
 ---
-

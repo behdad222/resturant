@@ -39,13 +39,13 @@ title_guard = false
 # Another "title" :-). This one is used as the site_name on the Hugo's internal
 # opengraph structured data template.
 # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title = "تست تایتل"
+title = "هیران"
 
 # The "description" of your website. This is used in the meta data of your generated html.
-description = "رستوران با غذاهای خوشمزه"
+description = "بوتیک هتل هیران"
 
 # Show a menu of languages available
-language_menu = true
+language_menu = false
 
 # Show also a language menu item for the current language, if false only
 # show the remaining languages
@@ -80,13 +80,16 @@ showFooterLinks = false
     keywords = "hiran, هیران, کافه, رستوران, هتل"
 
 [[params.contacts]]
-    label = "تلفن"
-    value = "+۲۱ ۰۰۰۰ ۰۰۰۰"
-    url = "tel:+49 ۰۰۰۰ ۰۰۰۰"
+    value = "۱۷ الی ۲۲:۳۰"
+    url = "geo:35.800922, 50.904596"
+    icon = "fa fa-clock-o"
+
+[[params.contacts]]
+    value = "۰۲۶۳-۳۴۰۵۹۶۸"
+    url = "tel:+982633405968"
     icon = "fa fa-phone"
 
 [[params.contacts]]
-    label = "آدرس"
     value = "مهرشهر - خیابان ۱۱۱ - نبش عرفان"
     url = "geo:35.800922, 50.904596"
     icon = "fa fa-envelope"
@@ -105,13 +108,13 @@ showFooterLinks = false
     languageName = "فارسی"
     contentDir = "content/fa"
 
-  [languages.en]
-    weight = 20
-    languageName = "English"
-    contentDir = "content/en"
+#  [languages.en]
+#    weight = 20
+#    languageName = "English"
+#    contentDir = "content/en"
 
-  [languages.ar]
-    title = "رستوران هیران عربی"
-    weight = 30
-    contentDir = "content/ar"
-    languageName = "عربی"
+#  [languages.ar]
+#    title = "رستوران هیران عربی"
+#    weight = 30
+#    contentDir = "content/ar"
+#    languageName = "عربی"

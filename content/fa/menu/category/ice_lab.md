@@ -1,7 +1,7 @@
 ---
-title: "پیش غذا"
+title: "نوشیدنی سرد"
 weight: 30
 header_menu: true
 type: categury
-category_id: appetizer
+category_id: ice_lab
 ---
