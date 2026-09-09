@@ -2,7 +2,7 @@
 name_fa: "بری کولر"
 name_en: "Berry Cooler"
 weight: 13
-price: 185
+price: 380
 type: item
 category_id: chill_bar
 ingredients_fa: [توت فرنگی, توت سیاه, پرتقال]

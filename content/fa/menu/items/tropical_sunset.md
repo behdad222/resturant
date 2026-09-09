@@ -2,7 +2,7 @@
 name_fa: "تروپیکال سان‌ست"
 name_en: "Tropical Sunset"
 weight: 13
-price: 185
+price: 370
 type: item
 category_id: chill_bar
 ingredients_fa: [آناناس, پرتقال, لیمو]

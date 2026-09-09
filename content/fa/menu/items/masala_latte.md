@@ -2,7 +2,7 @@
 name_fa: "ماسالا لاته"
 name_en: "Masala Latte"
 weight: 13
-price: 185
+price: 295
 type: item
 category_id: hot_drink
 vegan: false

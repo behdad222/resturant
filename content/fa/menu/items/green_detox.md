@@ -2,7 +2,7 @@
 name_fa: "گرین دیتاکس"
 name_en: "Green Detox"
 weight: 15
-price: 185
+price: 430
 type: item
 category_id: chill_bar
 ingredients_fa: [عسل, اسفنجاج, چیا, نارگیل]

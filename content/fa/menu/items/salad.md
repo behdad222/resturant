@@ -15,5 +15,6 @@ ingredients_en: [sos, pasta, sabzi]
 ingredients_ar: [سsس, پاستا, سبزی]
 vegan: true
 special: true
+over: true
 ---
 
