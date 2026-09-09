@@ -80,26 +80,28 @@ showFooterLinks = false
     keywords = "hiran, هیران, کافه, رستوران, هتل"
 
 [[params.contacts]]
+    label = "ساعات کاری"
     value = "هر روز ۱۷ الی ۲۲:۳۰"
-    url = "geo:35.800922, 50.904596"
+    url = ""
     icon = "fa fa-clock-o"
 
 [[params.contacts]]
+    label = "تماس تلفنی"
     value = "۰۲۶-۳۳۴۰۵۹۶۸"
     url = "tel:+982633405968"
     icon = "fa fa-phone"
 
 [[params.contacts]]
+    label = "مسیریابی و آدرس"
     value = "مهرشهر - خیابان ۱۱۱ - نبش عرفان"
     url = "geo:35.800922, 50.904596"
-    icon = "fa fa-envelope"
+    icon = "fa fa-map-marker"
 
-# Add additional contacts here!
-# [[params.contacts]]
-#     label = "گوگل مپ"
-#     value = ""
-#     url = ""
-#     icon = ""
+[[params.contacts]]
+    label = "اینستاگرام"
+    value = "hiranfood"
+    url = "https://www.instagram.com/hiranfood"
+    icon = "fa fa-instagram"
 
 # Define additional languages
 [languages]
