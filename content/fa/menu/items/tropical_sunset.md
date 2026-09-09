@@ -1,7 +1,7 @@
 ---
 name_fa: "تروپیکال سان‌ست"
 name_en: "Tropical Sunset"
-weight: 14
+weight: 13
 price: 185
 type: item
 category_id: chill_bar

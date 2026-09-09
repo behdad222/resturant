@@ -1,7 +1,7 @@
 ---
 name_fa: "بری کولر"
 name_en: "Berry Cooler"
-weight: 12
+weight: 13
 price: 185
 type: item
 category_id: chill_bar

@@ -1,7 +1,7 @@
 ---
 name_fa: "انبه اکلت"
 name_en: "Mango Eclat"
-weight: 11
+weight: 12
 price: 185
 type: item
 category_id: chill_bar
