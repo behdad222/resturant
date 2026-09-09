@@ -1,5 +1,5 @@
 ---
-name_fa: "کارمل ماکیاتو"
+name_fa: "کارامل ماکیاتو"
 name_en: "Caramel macchiato"
 weight: 18
 price: 185
