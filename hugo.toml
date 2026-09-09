@@ -85,7 +85,7 @@ showFooterLinks = false
     icon = "fa fa-clock-o"
 
 [[params.contacts]]
-    value = "۰۲۶۳-۳۴۰۵۹۶۸"
+    value = "۰۲۶-۳۳۴۰۵۹۶۸"
     url = "tel:+982633405968"
     icon = "fa fa-phone"
 
