@@ -80,7 +80,7 @@ showFooterLinks = false
     keywords = "hiran, هیران, کافه, رستوران, هتل"
 
 [[params.contacts]]
-    value = "۱۷ الی ۲۲:۳۰"
+    value = "هر روز ۱۷ الی ۲۲:۳۰"
     url = "geo:35.800922, 50.904596"
     icon = "fa fa-clock-o"
 

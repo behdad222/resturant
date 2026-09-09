@@ -1,6 +1,7 @@
 ---
 name_fa: "ریسترتو"
 name_en: "Ristretto"
+weight: 11
 price: 185
 type: item
 category_id: coffee

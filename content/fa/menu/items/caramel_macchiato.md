@@ -1,0 +1,9 @@
+---
+name_fa: "کارمل ماکیاتو"
+name_en: "Caramel macchiato"
+weight: 18
+price: 185
+type: item
+category_id: coffee
+vegan: false
+---
