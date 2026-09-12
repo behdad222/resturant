@@ -70,6 +70,13 @@ image_options = "webp q90 lanczos photo"
 # e.g. <title>Legal | Jane Doe - Nutrition Coach & Chef Consultant</title>
 combine_page_and_site_title = false
 
+[params.analytics]
+  google_analytics_id = "G-B4F36489NK"
+
+  clarity_id = ""
+
+  custom_head = ""
+
 [params.footer]
 # Show contact icons for email/phone (if specified) in the footer of the page
 showContactIcons = true
