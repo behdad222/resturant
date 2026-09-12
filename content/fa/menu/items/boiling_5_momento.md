@@ -5,6 +5,6 @@ weight: 5
 price: 1700
 type: item
 category_id: boiling
-vegan: falses
+vegan: false
 special: true
 ---
