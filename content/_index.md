@@ -1,6 +1,8 @@
 ---
 # Striking header background image, Ideal images are homogenous around the centre and contrasting to the text. Non-ideal images can use `title_guard`
-header_image: "cover-image.jpg"
+header_image: "images/cover-image.jpg"
+images:
+  - "images/cover-image.jpg"
 #
 # When set true, uses video from custom_header_video.html partial, instead of header_image
 header_use_video: false
