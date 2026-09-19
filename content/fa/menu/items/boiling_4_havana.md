@@ -1,6 +1,6 @@
 ---
-name_fa: "هاوایی"
-name_en: "Hawaii"
+name_fa: "هاوانا"
+name_en: "Havana"
 weight: 4
 price: 1700
 type: item
