@@ -7,4 +7,5 @@ type: item
 category_id: boiling
 vegan: false
 special: false
+draft: true
 ---
