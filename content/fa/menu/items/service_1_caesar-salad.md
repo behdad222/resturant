@@ -6,7 +6,7 @@ price: 1000
 type: item
 category_id: service
 ingredients_fa: [فیله مرغ سوخاری]
-ingredients_en: []
+ingredients_en: [Crispy Chicken Fillet]
 vegan: false
 over: true
 ---

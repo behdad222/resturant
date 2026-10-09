@@ -5,7 +5,7 @@ weight: 6
 price: 430
 type: item
 category_id: chill-bar
-ingredients_fa: [عسل, اسفنجاج, چیا, نارگیل]
-ingredients_en: [Honey, Baby spinach, Chia, Coconut]
+ingredients_fa: [عسل, اسفناج, دانه چیا, نارگیل]
+ingredients_en: [Honey, Baby Spinach, Chia Seeds, Coconut]
 vegan: false
 ---

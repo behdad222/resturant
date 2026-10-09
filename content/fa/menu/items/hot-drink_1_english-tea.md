@@ -1,6 +1,6 @@
 ---
 name_fa: "چای انگلیسی"
-name_en: "English tea"
+name_en: "English Tea"
 weight: 1
 price: 210
 type: item

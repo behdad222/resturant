@@ -1,6 +1,6 @@
 ---
-name_fa: "پور اور"
-name_en: "V60 - Pour Over"
+name_fa: "پور اور V60"
+name_en: "V60 Pour Over"
 weight: 1
 price: 360
 type: item

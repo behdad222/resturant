@@ -1,6 +1,6 @@
 ---
 name_fa: "تمشک بستنی"
-name_en: "Raspberry Ice cream"
+name_en: "Raspberry Ice Cream"
 weight: 8
 price: 1500
 type: item

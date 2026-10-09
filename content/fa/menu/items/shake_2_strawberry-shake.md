@@ -1,5 +1,5 @@
 ---
-name_fa: "شیک توت فرنگی"
+name_fa: "شیک توت‌فرنگی"
 name_en: "Strawberry Shake"
 weight: 2
 price: 350

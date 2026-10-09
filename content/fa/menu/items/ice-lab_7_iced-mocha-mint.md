@@ -1,6 +1,6 @@
 ---
 name_fa: "آیس موکا مینت"
-name_en: "Iced Chocolate Mint"
+name_en: "Iced Mocha Mint"
 weight: 7
 price: 420
 type: item

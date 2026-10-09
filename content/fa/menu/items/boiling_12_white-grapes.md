@@ -1,6 +1,6 @@
 ---
 name_fa: "انگور سفید"
-name_en: "White grapes"
+name_en: "White Grapes"
 weight: 12
 price: 1200
 type: item

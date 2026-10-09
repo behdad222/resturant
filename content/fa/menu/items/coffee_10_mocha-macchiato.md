@@ -1,6 +1,6 @@
 ---
 name_fa: "موکا ماکیاتو"
-name_en: "Mocha macchiato"
+name_en: "Mocha Macchiato"
 weight: 10
 price: 360
 type: item

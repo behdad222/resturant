@@ -1,6 +1,6 @@
 ---
-name_fa: "۲ سیب"
-name_en: "2 Apples"
+name_fa: "دو سیب"
+name_en: "Double Apple"
 weight: 16
 price: 800
 type: item

@@ -1,6 +1,6 @@
 ---
 name_fa: "آدامس دارچین"
-name_en: "Cinnamon gum"
+name_en: "Cinnamon Gum"
 weight: 11
 price: 1200
 type: item

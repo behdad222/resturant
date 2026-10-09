@@ -1,6 +1,6 @@
 ---
 name_fa: "ماست موسیر"
-name_en: "Yogurt with shallots"
+name_en: "Shallot Yogurt"
 weight: 3
 price: 200
 type: item

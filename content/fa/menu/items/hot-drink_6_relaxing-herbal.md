@@ -1,6 +1,6 @@
 ---
 name_fa: "دمنوش آرامش"
-name_en: "Relaxing Herbal"
+name_en: "Relaxing Herbal Tea"
 weight: 6
 price: 240
 type: item

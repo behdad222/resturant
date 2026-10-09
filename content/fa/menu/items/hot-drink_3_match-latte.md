@@ -1,6 +1,6 @@
 ---
 name_fa: "ماچا لاته"
-name_en: "Match Latte"
+name_en: "Matcha Latte"
 weight: 3
 price: 310
 type: item

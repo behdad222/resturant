@@ -5,7 +5,7 @@ weight: 5
 price: 380
 type: item
 category_id: chill-bar
-ingredients_fa: [توت فرنگی, توت سیاه, پرتقال]
-ingredients_en: [Strawberry, Black mulberry, Orange]
+ingredients_fa: [توت‌فرنگی, شاه‌توت, پرتقال]
+ingredients_en: [Strawberry, Blackberry, Orange]
 vegan: false
 ---

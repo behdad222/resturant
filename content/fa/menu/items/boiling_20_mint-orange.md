@@ -1,6 +1,6 @@
 ---
-name_fa: "پرتغال نعنا"
-name_en: "Mint Orange"
+name_fa: "پرتقال نعنا"
+name_en: "Orange Mint"
 weight: 20
 price: 800
 type: item

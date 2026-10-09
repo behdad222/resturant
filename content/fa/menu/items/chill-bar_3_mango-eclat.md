@@ -5,7 +5,7 @@ weight: 3
 price: 480
 type: item
 category_id: chill-bar
-ingredients_fa: [انبه, پشن فروت, نارگیل, کره بادام زمینی]
-ingredients_en: [Mango, Passion fruit, Coconut, Peanut butter]
+ingredients_fa: [انبه, پشن‌فروت, نارگیل, کره بادام‌زمینی]
+ingredients_en: [Mango, Passion Fruit, Coconut, Peanut Butter]
 vegan: false
 ---

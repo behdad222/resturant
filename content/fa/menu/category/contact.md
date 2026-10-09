@@ -1,7 +1,7 @@
 ---
 title: "ارتباط"
 weight: 1000
-type: categury
+type: category
 ---
 
 {{<contact_list>}}

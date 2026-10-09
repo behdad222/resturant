@@ -1,6 +1,6 @@
 ---
 name_fa: "چای سیاه"
-name_en: "Black tea"
+name_en: "Black Tea"
 weight: 5
 price: 180
 type: item

@@ -2,6 +2,6 @@
 title: "سرویس"
 weight: 80
 header_menu: true
-type: categury
+type: category
 category_id: service
 ---

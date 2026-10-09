@@ -2,6 +2,6 @@
 title: "غذای ایرانی"
 weight: 70
 header_menu: true
-type: categury
+type: category
 category_id: iranian-food
 ---

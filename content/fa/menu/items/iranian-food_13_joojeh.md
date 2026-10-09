@@ -6,7 +6,7 @@ price: 1050
 type: item
 category_id: iranian-food
 ingredients_fa: [۲۸۰ گرم فیله مرغ]
-ingredients_en: []
+ingredients_en: [280g Chicken Breast Tenderloin]
 vegan: false
 over: true
 ---

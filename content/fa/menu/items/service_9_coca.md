@@ -1,6 +1,6 @@
 ---
 name_fa: "نوشابه کوکا"
-name_en: "Coca"
+name_en: "Coca-Cola"
 weight: 9
 price: 100
 type: item

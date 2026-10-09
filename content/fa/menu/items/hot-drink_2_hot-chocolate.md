@@ -1,6 +1,6 @@
 ---
 name_fa: "هات چاکلت"
-name_en: "HOT Chocolate"
+name_en: "Hot Chocolate"
 weight: 2
 price: 320
 type: item
