@@ -7,6 +7,8 @@ type: item
 category_id: service
 ingredients_fa: []
 ingredients_en: []
+description_fa: "هوفن‌برگ شیشه‌ای"
+description_en: "Hofenberg Glass Bottle"
 vegan: false
 over: false
 ---
