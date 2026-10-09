@@ -8,5 +8,5 @@ category_id: iranian-food
 ingredients_fa: [۱ سیخ برگ, ۱ سیخ لقمه]
 ingredients_en: [1 Skewer Barg, 1 Skewer Loghmeh]
 vegan: false
-over: true
+over: false
 ---

@@ -5,8 +5,8 @@ weight: 5
 price: 2800
 type: item
 category_id: iranian-food
-ingredients_fa: [۲۸۰ گرم گوشت گوسفندی]
-ingredients_en: [280g Lamb]
+ingredients_fa: [۲۸۰ گرم راسته گوسفندی]
+ingredients_en: [280g Lamb Sirloin]
 vegan: false
-over: true
+over: false
 ---

@@ -5,8 +5,8 @@ weight: 11
 price: 1380
 type: item
 category_id: iranian-food
-ingredients_fa: [۲۵۰ گرم]
-ingredients_en: [250g Minced Meat]
+ingredients_fa: [۲۵۰ گرم گوشت مخلوط گوسفندی و گوساله]
+ingredients_en: [250g Minced Lamb & Beef]
 vegan: false
-over: true
+over: false
 ---

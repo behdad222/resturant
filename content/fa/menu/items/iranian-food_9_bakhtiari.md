@@ -5,8 +5,8 @@ weight: 9
 price: 2000
 type: item
 category_id: iranian-food
-ingredients_fa: [۳۲۰ گرم]
-ingredients_en: [320g Lamb & Chicken Fillet]
+ingredients_fa: [۱۶۰ گرم راسته گوسفندی, ۱۶۰ گرم فیله مرغ]
+ingredients_en: [160g Lamb Sirloin, 160g Chicken Fillet]
 vegan: false
-over: true
+over: false
 ---

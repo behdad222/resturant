@@ -8,5 +8,5 @@ category_id: iranian-food
 ingredients_fa: [۳۰۰ گرم فیله گوساله]
 ingredients_en: [300g Beef Tenderloin]
 vegan: false
-over: true
+over: false
 ---
