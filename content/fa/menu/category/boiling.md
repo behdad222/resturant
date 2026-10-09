@@ -1,6 +1,6 @@
 ---
 title: "قلیان"
-weight: 60
+weight: 90
 header_menu: true
 type: categury
 category_id: boiling
