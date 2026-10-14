@@ -1,5 +1,5 @@
 ---
-name_fa: "آلوها"
+name_fa: "هندوانه آلوها"
 name_en: "Aloha"
 weight: 10
 price: 1500
