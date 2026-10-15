@@ -4,7 +4,7 @@ name_en: "Caesar Salad"
 weight: 1
 price: 1000
 type: item
-category_id: service
+category_id: appetizer
 ingredients_fa: [فیله مرغ سوخاری]
 ingredients_en: [Crispy Chicken Fillet]
 vegan: false
