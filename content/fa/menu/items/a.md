@@ -1,6 +1,6 @@
 ---
 name_fa: "سیب زمینی کلاسیک"
-name_en: "Chenjeh Kebab"
+name_en: ""
 weight: 2
 price: 430
 type: item
