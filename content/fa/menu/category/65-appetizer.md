@@ -1,5 +1,5 @@
 ---
-title: "پیش غذا"
+title: "پیش‌غذا"
 weight: 65
 header_menu: true
 type: category

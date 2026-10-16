@@ -1,8 +1,8 @@
 ---
-name_fa: "سیب زمینی با سس آلفردو"
-name_en: ""
-weight: 4
-price: 600
+name_fa: "ماست موسیر"
+name_en: "Shallot Yogurt"
+weight: 5
+price: 200
 type: item
 category_id: appetizer
 ingredients_fa: []

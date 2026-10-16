@@ -1,8 +1,8 @@
 ---
-name_fa: "سیب زمینی با دیپ چدار"
-name_en: ""
-weight: 3
-price: 530
+name_fa: "سیب‌زمینی کلاسیک"
+name_en: "Classic French Fries"
+weight: 2
+price: 430
 type: item
 category_id: appetizer
 ingredients_fa: []
