@@ -2,7 +2,7 @@
 name_fa: "انبه"
 name_en: "Mango"
 weight: 14
-price: 900
+price: 950
 type: item
 category_id: boiling
 vegan: false

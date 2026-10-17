@@ -2,7 +2,7 @@
 name_fa: "هندوانه آلوها"
 name_en: "Aloha"
 weight: 10
-price: 1500
+price: 1550
 type: item
 category_id: boiling
 vegan: false

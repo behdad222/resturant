@@ -2,7 +2,7 @@
 name_fa: "لیدی کیلر"
 name_en: "Lady Killer"
 weight: 3
-price: 1700
+price: 1750
 type: item
 category_id: boiling
 vegan: false

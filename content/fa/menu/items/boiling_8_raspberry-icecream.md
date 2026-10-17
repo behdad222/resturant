@@ -2,7 +2,7 @@
 name_fa: "تمشک بستنی"
 name_en: "Raspberry Ice Cream"
 weight: 8
-price: 1500
+price: 1550
 type: item
 category_id: boiling
 vegan: false
