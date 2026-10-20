@@ -8,4 +8,5 @@ category_id: boiling
 vegan: false
 special: true
 over: false
+description_fa: "به‌همراه سرویس چای دونفره"
 ---
