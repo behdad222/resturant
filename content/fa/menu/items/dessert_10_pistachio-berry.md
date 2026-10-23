@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [کوکی پسته, پرالین پسته, کونفی بری]
 ingredients_en: [Pistachio Cookie, Pistachio Praline, Berry Confit]
 vegan: false
-over: false
+over: true
 ---
