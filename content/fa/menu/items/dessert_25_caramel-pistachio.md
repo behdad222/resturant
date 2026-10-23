@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [پرالین پسته, کارامل, پسته کاراملی]
 ingredients_en: [Pistachio Praline, Caramel, Caramelized Pistachios]
 vegan: false
-over: false
+over: true
 ---
