@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [تارت پسته و شکلات, ژل بری]
 ingredients_en: [Pistachio & Chocolate Tart, Berry Gel]
 vegan: false
-over: false
+over: true
 ---

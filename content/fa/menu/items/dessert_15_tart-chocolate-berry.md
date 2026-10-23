@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [گاناش شکلات, ژل توت‌فرنگی]
 ingredients_en: [Chocolate Ganache, Strawberry Gel]
 vegan: false
-over: false
+over: true
 ---

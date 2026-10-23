@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [بری, تزئین شکلاتی]
 ingredients_en: [Berries, Chocolate Garnish]
 vegan: false
-over: false
+over: true
 ---
