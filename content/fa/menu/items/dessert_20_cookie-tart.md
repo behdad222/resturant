@@ -1,6 +1,6 @@
 ---
-name_fa: "کوکی تارت"
-name_en: "Cookie Tart"
+name_fa: "کوکی تارت کارامل و فندق"
+name_en: "Caramel & Hazelnut Cookie Tart"
 weight: 20
 price: 360
 type: item

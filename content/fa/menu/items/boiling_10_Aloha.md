@@ -1,6 +1,6 @@
 ---
 name_fa: "هندوانه آلوها"
-name_en: "Aloha"
+name_en: "Watermelon Aloha"
 weight: 10
 price: 1550
 type: item
