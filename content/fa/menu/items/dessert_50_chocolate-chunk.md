@@ -1,5 +1,5 @@
 ---
-name_fa: "کوکی تکه‌شکلات"
+name_fa: "کوکی چاکلت چانک"
 name_en: "Chocolate Chunk Cookie"
 weight: 50
 price: 295
