@@ -1,7 +1,7 @@
 ---
 name_fa: "کوکی تارت پسته و شکلات"
 name_en: "Pistachio & Chocolate Tart Cookie"
-weight: 40
+weight: 22
 price: 380
 type: item
 category_id: dessert
