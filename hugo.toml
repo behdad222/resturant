@@ -1,4 +1,4 @@
-baseURL = "https://hiranfood.com"
+baseURL = "https://hiranhouse.com"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS"]
@@ -107,8 +107,8 @@ showFooterLinks = false
 
 [[params.contacts]]
     label = "اینستاگرام"
-    value = "hiranfood"
-    url = "https://www.instagram.com/hiranfood"
+    value = "hiranhouse"
+    url = "https://www.instagram.com/hiranhouse"
     icon = "fa fa-instagram"
 
 # Define additional languages
