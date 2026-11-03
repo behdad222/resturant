@@ -5,8 +5,8 @@ weight: 1
 price: 1000
 type: item
 category_id: appetizer
-ingredients_fa: [فیله مرغ سوخاری]
-ingredients_en: [Crispy Chicken Fillet]
+ingredients_fa: [کاهو پیچ, رول مرغ سوخاری, نان کروتان, پنیر پارمسان, سس سزار, گوجه, اسلایس زیتون]
+ingredients_en: [Romaine Lettuce, Crispy Chicken Fillet, Croutons, Parmesan Cheese, Caesar Dressing]
 vegan: false
 over: false
 ---

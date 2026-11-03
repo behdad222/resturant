@@ -1,5 +1,5 @@
 ---
-name_fa: "کوکی شکلات و بادام زمینی"
+name_fa: "کوکی شکلات و بادام‌زمینی"
 name_en: "Chocolate & Peanut Cookie"
 weight: 30
 price: 340

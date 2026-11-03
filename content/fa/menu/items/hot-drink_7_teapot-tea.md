@@ -8,4 +8,5 @@ category_id: hot-drink
 description_fa: "برای دو نفر"
 vegan: false
 over: false
+description_en: "Serves two"
 ---

@@ -1,6 +1,6 @@
 ---
 name_fa: "کوکی کرم‌پنیری دارچینی"
-name_en: "Cream Cheese & Nut Cookie"
+name_en: "Cinnamon Cream Cheese Cookie"
 weight: 41
 price: 340
 type: item

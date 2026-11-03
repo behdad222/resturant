@@ -1,6 +1,6 @@
 ---
 name_fa: "کوکی کارامل و پسته"
-name_en: "Caramel Pistachio Cookie"
+name_en: "Caramel & Pistachio Cookie"
 weight: 25
 price: 380
 type: item

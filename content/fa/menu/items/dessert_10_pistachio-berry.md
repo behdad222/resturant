@@ -5,7 +5,7 @@ weight: 10
 price: 380
 type: item
 category_id: dessert
-ingredients_fa: [کوکی پسته, پرالین پسته, کونفی بری]
+ingredients_fa: [کوکی پسته, پرالین پسته, کانفی بری]
 ingredients_en: [Pistachio Cookie, Pistachio Praline, Berry Confit]
 vegan: false
 over: true

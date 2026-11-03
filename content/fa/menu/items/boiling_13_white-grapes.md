@@ -1,11 +1,12 @@
 ---
-name_fa: "هندوانه آلوها"
-name_en: "Watermelon Aloha"
-weight: 10
-price: 1550
+name_fa: "انگور سفید"
+name_en: "White Grapes"
+weight: 13
+price: 1250
 type: item
 category_id: boiling
 vegan: false
 special: false
 description_fa: "به‌همراه سرویس چای دونفره"
+description_en: "Served with tea service for two"
 ---
