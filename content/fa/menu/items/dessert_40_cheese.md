@@ -1,5 +1,5 @@
 ---
-name_fa: "کوکی کرم‌پنیری و آجیل"
+name_fa: "کوکی کرم‌پنیری ساده"
 name_en: "Cream Cheese & Nut Cookie"
 weight: 40
 price: 340

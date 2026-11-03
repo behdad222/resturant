@@ -1,0 +1,579 @@
+<!-- Navigation & Map Chooser Modal -->
+<dialog id="navigation-modal" class="nav-dialog" dir="rtl" aria-labelledby="nav-modal-title">
+  <div class="nav-dialog-container">
+    <div class="nav-dialog-drag-handle" aria-hidden="true"></div>
+
+    <div class="nav-dialog-header">
+      <div class="nav-dialog-title-group">
+        <div class="nav-dialog-pin-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <div>
+          <h3 id="nav-modal-title" class="nav-dialog-title">انتخاب مسیریاب</h3>
+          <p class="nav-dialog-subtitle">جهت مسیریابی، یکی از برنامه‌های زیر را انتخاب کنید</p>
+        </div>
+      </div>
+      <button type="button" class="nav-dialog-close-btn" id="nav-modal-close" aria-label="بستن پنجره">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Address bar & Copy Button -->
+    <div class="nav-address-card">
+      <div class="nav-address-content">
+        <span class="nav-address-prefix">آدرس:</span>
+        <span class="nav-address-text" id="nav-address-val">مهرشهر - خیابان ۱۱۱ - نبش عرفان</span>
+      </div>
+    </div>
+
+    <!-- Main Navigation Apps (Google Maps & Waze) -->
+    <div class="nav-apps-grid">
+      <!-- Google Maps -->
+      <a href="https://www.google.com/maps/search/?api=1&query=35.800922,50.904596" target="_blank" rel="noopener noreferrer" class="nav-app-btn nav-google" id="nav-link-google">
+        <div class="nav-app-info">
+          <span class="nav-app-title">گوگل مپس</span>
+        </div>
+        <div class="nav-app-chevron" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </div>
+      </a>
+
+      <!-- Waze -->
+      <a href="https://waze.com/ul?ll=35.800922,50.904596&navigate=yes" target="_blank" rel="noopener noreferrer" class="nav-app-btn nav-waze" id="nav-link-waze">
+        <div class="nav-app-info">
+          <span class="nav-app-title">ویز</span>
+        </div>
+        <div class="nav-app-chevron" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </div>
+      </a>
+
+      <!-- Neshan -->
+      <a href="https://nshn.ir/45rbv1nPIxv38f" target="_blank" rel="noopener noreferrer" class="nav-app-btn nav-waze" id="nav-link-waze">
+        <div class="nav-app-info">
+          <span class="nav-app-title">نشان</span>
+        </div>
+        <div class="nav-app-chevron" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </div>
+      </a>
+
+      <!-- Geo -->
+      <a href="geo:35.800922, 50.904596" target="_blank" rel="noopener noreferrer" class="nav-app-btn nav-waze" id="nav-link-waze">
+        <div class="nav-app-info">
+          <span class="nav-app-title">Geo</span>
+        </div>
+        <div class="nav-app-chevron" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</dialog>
+
+<style>
+/* ==================== Navigation Modal Styles ==================== */
+.nav-dialog {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #f1f5f9;
+  max-width: 440px;
+  width: 92%;
+  margin: auto;
+  border-radius: 24px;
+  overflow: visible;
+  outline: none;
+  font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(196, 148, 76, 0.25);
+  transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 99999;
+}
+
+.nav-dialog::backdrop {
+  background: rgba(8, 12, 18, 0.72);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  animation: navBackdropFadeIn 0.25s ease-out;
+}
+
+@keyframes navBackdropFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.nav-dialog-container {
+  background: #151b23;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nav-dialog-drag-handle {
+  display: none;
+  width: 44px;
+  height: 5px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0 auto -6px auto;
+}
+
+/* Header */
+.nav-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.nav-dialog-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-dialog-pin-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: rgba(196, 148, 76, 0.15);
+  color: #c4944c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(196, 148, 76, 0.3);
+}
+
+.nav-dialog-title {
+  margin: 0;
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+.nav-dialog-subtitle {
+  margin: 3px 0 0 0;
+  font-size: 1.2rem;
+  color: #94a3b8;
+  line-height: 1.4;
+}
+
+.nav-dialog-close-btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.nav-dialog-close-btn:hover,
+.nav-dialog-close-btn:active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Address Box */
+.nav-address-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 10px 14px;
+}
+
+.nav-address-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow: hidden;
+  font-size: 1.25rem;
+}
+
+.nav-address-prefix {
+  color: #c4944c;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.nav-address-text {
+  color: #e2e8f0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nav-copy-btn {
+  background: rgba(196, 148, 76, 0.12);
+  border: 1px solid rgba(196, 148, 76, 0.3);
+  color: #f2dec0;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.15rem;
+  font-family: inherit;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.nav-copy-btn:hover,
+.nav-copy-btn:active {
+  background: rgba(196, 148, 76, 0.25);
+  color: #ffffff;
+  border-color: rgba(196, 148, 76, 0.6);
+}
+
+.nav-copy-btn.copied {
+  background: #10b981;
+  color: #ffffff;
+  border-color: #10b981;
+}
+
+/* Apps Grid */
+.nav-apps-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.nav-app-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-app-btn:hover,
+.nav-app-btn:active {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+
+.nav-app-btn.nav-google:hover,
+.nav-app-btn.nav-google:active {
+  border-color: rgba(66, 133, 244, 0.5);
+  box-shadow: 0 8px 24px -4px rgba(66, 133, 244, 0.25);
+}
+
+.nav-app-btn.nav-waze:hover,
+.nav-app-btn.nav-waze:active {
+  border-color: rgba(51, 204, 255, 0.5);
+  box-shadow: 0 8px 24px -4px rgba(51, 204, 255, 0.25);
+}
+
+.nav-app-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.nav-app-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.nav-app-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.nav-app-sub {
+  font-size: 1.15rem;
+  color: #94a3b8;
+  margin-top: 1px;
+}
+
+.nav-app-chevron {
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav-app-btn:hover .nav-app-chevron {
+  color: #c4944c;
+  transform: translateX(-4px);
+}
+
+/* Secondary Domestic Apps */
+.nav-domestic-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.nav-domestic-label {
+  font-size: 1.2rem;
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.nav-domestic-btns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.nav-pill-btn:hover,
+.nav-pill-btn:active {
+  background: rgba(196, 148, 76, 0.15);
+  border-color: rgba(196, 148, 76, 0.4);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* Contact Card Action Hint Badge */
+.contact-action-badge {
+  margin-right: auto;
+  margin-left: 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(196, 148, 76, 0.15);
+  color: var(--accent-gold, #c4944c);
+  font-size: 1.15rem;
+  font-weight: 600;
+  border: 1px solid rgba(196, 148, 76, 0.3);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.contact-card:hover .contact-action-badge {
+  background: var(--accent-gold, #c4944c);
+  color: #ffffff;
+}
+
+/* Mobile Bottom Sheet Layout */
+@media only screen and (max-width: 600px) {
+  .nav-dialog {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 26px 26px 0 0;
+    animation: navSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .nav-dialog-container {
+    border-radius: 26px 26px 0 0;
+    border-bottom: none;
+    padding: 16px 20px calc(24px + env(safe-area-inset-bottom, 0px)) 20px;
+    gap: 16px;
+  }
+
+  .nav-dialog-drag-handle {
+    display: block;
+  }
+
+  @keyframes navSlideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+}
+</style>
+
+<script>
+(function() {
+  const modal = document.getElementById('navigation-modal');
+  if (!modal) return;
+
+  const closeBtn = document.getElementById('nav-modal-close');
+  const copyBtn = document.getElementById('nav-copy-trigger');
+  const copyLabel = document.getElementById('nav-copy-text');
+  const addressVal = document.getElementById('nav-address-val');
+
+  const linkGoogle = document.getElementById('nav-link-google');
+  const linkWaze = document.getElementById('nav-link-waze');
+  const linkNeshan = document.getElementById('nav-link-neshan');
+  const linkBalad = document.getElementById('nav-link-balad');
+
+  let defaultLat = '35.800922';
+  let defaultLng = '50.904596';
+  let defaultAddress = 'مهرشهر - خیابان ۱۱۱ - نبش عرفان';
+
+  function updateLinks(lat, lng) {
+    if (linkGoogle) {
+      linkGoogle.href = 'https://www.google.com/maps/search/?api=1&query=' + lat + ',' + lng;
+    }
+    if (linkWaze) {
+      linkWaze.href = 'https://waze.com/ul?ll=' + lat + ',' + lng + '&navigate=yes';
+    }
+    if (linkNeshan) {
+      linkNeshan.href = 'https://neshan.org/maps/@' + lat + ',' + lng + ',16z';
+    }
+    if (linkBalad) {
+      linkBalad.href = 'https://balad.ir/location?latitude=' + lat + '&longitude=' + lng;
+    }
+  }
+
+  function openModal(cardOrLink) {
+    if (cardOrLink) {
+      const geoUrl = cardOrLink.getAttribute('href') || '';
+      const match = geoUrl.match(/geo:([0-9.]+)[,\s%20]+([0-9.]+)/i);
+      if (match && match[1] && match[2]) {
+        updateLinks(match[1], match[2]);
+      } else {
+        updateLinks(defaultLat, defaultLng);
+      }
+
+      const textElem = cardOrLink.querySelector('.contact-value');
+      const address = textElem ? textElem.textContent.trim() : (cardOrLink.getAttribute('data-value') || defaultAddress);
+      if (addressVal && address) {
+        addressVal.textContent = address;
+      }
+    } else {
+      updateLinks(defaultLat, defaultLng);
+    }
+
+    if (typeof modal.showModal === 'function') {
+      modal.showModal();
+    } else {
+      modal.setAttribute('open', '');
+    }
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    if (typeof modal.close === 'function') {
+      modal.close();
+    } else {
+      modal.removeAttribute('open');
+    }
+    document.body.style.overflow = '';
+  }
+
+  // Intercept click on any contact card with map or geo: link
+  document.addEventListener('click', function(e) {
+    const trigger = e.target.closest('[data-map-modal="true"], a[href^="geo:"]');
+    if (trigger) {
+      e.preventDefault();
+      openModal(trigger);
+    }
+  });
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', closeModal);
+  }
+
+  // Close when clicking dialog backdrop
+  modal.addEventListener('click', function(e) {
+    const rect = modal.getBoundingClientRect();
+    const isInDialog = (
+      e.clientX >= rect.left &&
+      e.clientX <= rect.right &&
+      e.clientY >= rect.top &&
+      e.clientY <= rect.bottom
+    );
+    if (!isInDialog) {
+      closeModal();
+    }
+  });
+
+  // Automatically close modal after user clicks any app link so it doesn't linger
+  modal.querySelectorAll('a.nav-app-btn, a.nav-pill-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      setTimeout(closeModal, 400);
+    });
+  });
+
+  // Copy address to clipboard
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function() {
+      const textToCopy = (addressVal ? addressVal.textContent : defaultAddress).trim();
+      navigator.clipboard.writeText(textToCopy).then(function() {
+        if (copyLabel) copyLabel.textContent = 'کپی شد! ✓';
+        copyBtn.classList.add('copied');
+        setTimeout(function() {
+          if (copyLabel) copyLabel.textContent = 'کپی';
+          copyBtn.classList.remove('copied');
+        }, 2200);
+      }).catch(function() {
+        // Fallback for older browsers
+        const textarea = document.createElement('textarea');
+        textarea.value = textToCopy;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        if (copyLabel) copyLabel.textContent = 'کپی شد! ✓';
+        copyBtn.classList.add('copied');
+        setTimeout(function() {
+          if (copyLabel) copyLabel.textContent = 'کپی';
+          copyBtn.classList.remove('copied');
+        }, 2200);
+      });
+    });
+  }
+})();
+</script>

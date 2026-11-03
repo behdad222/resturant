@@ -1,0 +1,26 @@
+<div class="contact-cards-grid">
+{{ range .Site.Params.contacts }}
+    {{ if .url }}
+    {{ $isGeo := findRE "^geo:" .url }}
+    <a class="contact-card{{ if $isGeo }} map-trigger-card{{ end }}" href="{{ .url | safeURL }}"{{ if (findRE "^https?://" .url) }} target="_blank" rel="noopener noreferrer"{{ end }}{{ if $isGeo }} data-map-modal="true" data-label="{{ .label }}" data-value="{{ .value }}" role="button" aria-haspopup="dialog"{{ end }}>
+        <div class="contact-icon-box">
+            <i class="{{ .icon }}"></i>
+        </div>
+        <div class="contact-details">
+            {{ with .label }}<span class="contact-label">{{ . }}</span>{{ end }}
+            <span class="contact-value">{{ .value }}</span>
+        </div>
+    </a>
+    {{ else }}
+    <div class="contact-card static-card">
+        <div class="contact-icon-box">
+            <i class="{{ .icon }}"></i>
+        </div>
+        <div class="contact-details">
+            {{ with .label }}<span class="contact-label">{{ . }}</span>{{ end }}
+            <span class="contact-value">{{ .value }}</span>
+        </div>
+    </div>
+    {{ end }}
+{{ end }}
+</div>
