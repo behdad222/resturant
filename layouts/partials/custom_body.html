@@ -59,7 +59,7 @@
       </a>
 
       <!-- Neshan -->
-      <a href="https://nshn.ir/45rbv1nPIxv38f" target="_blank" rel="noopener noreferrer" class="nav-app-btn nav-waze" id="nav-link-waze">
+      <a href="https://nshn.ir/45rbv1nPIxv38f" target="_blank" rel="noopener noreferrer" class="nav-app-btn nav-neshan" id="nav-link-neshan">
         <div class="nav-app-info">
           <span class="nav-app-title">نشان</span>
         </div>
@@ -71,9 +71,9 @@
       </a>
 
       <!-- Geo -->
-      <a href="geo:35.800922,50.904596" target="_blank" rel="noopener noreferrer" class="nav-app-btn nav-waze" id="nav-link-waze">
+      <a href="geo:35.800922,50.904596?q=35.800922,50.904596(مهرشهر%20-%20خیابان%20۱۱۱%20-%20نبش%20عرفان)" class="nav-app-btn nav-geo" id="nav-link-geo">
         <div class="nav-app-info">
-          <span class="nav-app-title">Geo</span>
+          <span class="nav-app-title">سایر برنامه‌ها (Geo)</span>
         </div>
         <div class="nav-app-chevron" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -304,6 +304,18 @@
   box-shadow: 0 8px 24px -4px rgba(51, 204, 255, 0.25);
 }
 
+.nav-app-btn.nav-neshan:hover,
+.nav-app-btn.nav-neshan:active {
+  border-color: rgba(30, 198, 182, 0.5);
+  box-shadow: 0 8px 24px -4px rgba(30, 198, 182, 0.25);
+}
+
+.nav-app-btn.nav-geo:hover,
+.nav-app-btn.nav-geo:active {
+  border-color: rgba(196, 148, 76, 0.5);
+  box-shadow: 0 8px 24px -4px rgba(196, 148, 76, 0.25);
+}
+
 .nav-app-icon {
   width: 44px;
   height: 44px;
@@ -457,12 +469,14 @@
   const linkWaze = document.getElementById('nav-link-waze');
   const linkNeshan = document.getElementById('nav-link-neshan');
   const linkBalad = document.getElementById('nav-link-balad');
+  const linkGeo = document.getElementById('nav-link-geo');
 
   let defaultLat = '35.800922';
   let defaultLng = '50.904596';
   let defaultAddress = 'مهرشهر - خیابان ۱۱۱ - نبش عرفان';
 
-  function updateLinks(lat, lng) {
+  function updateLinks(lat, lng, label) {
+    const locLabel = (label || defaultAddress).trim();
     if (linkGoogle) {
       linkGoogle.href = 'https://www.google.com/maps/search/?api=1&query=' + lat + ',' + lng;
     }
@@ -475,25 +489,29 @@
     if (linkBalad) {
       linkBalad.href = 'https://balad.ir/location?latitude=' + lat + '&longitude=' + lng;
     }
+    if (linkGeo) {
+      linkGeo.href = 'geo:' + lat + ',' + lng + '?q=' + lat + ',' + lng + (locLabel ? '(' + encodeURIComponent(locLabel) + ')' : '');
+    }
   }
 
   function openModal(cardOrLink) {
+    let address = defaultAddress;
     if (cardOrLink) {
-      const geoUrl = cardOrLink.getAttribute('href') || '';
-      const match = geoUrl.match(/geo:([0-9.]+)[,\s%20]+([0-9.]+)/i);
-      if (match && match[1] && match[2]) {
-        updateLinks(match[1], match[2]);
-      } else {
-        updateLinks(defaultLat, defaultLng);
-      }
-
       const textElem = cardOrLink.querySelector('.contact-value');
-      const address = textElem ? textElem.textContent.trim() : (cardOrLink.getAttribute('data-value') || defaultAddress);
+      address = textElem ? textElem.textContent.trim() : (cardOrLink.getAttribute('data-value') || defaultAddress);
       if (addressVal && address) {
         addressVal.textContent = address;
       }
+
+      const geoUrl = cardOrLink.getAttribute('href') || '';
+      const match = geoUrl.match(/geo:([0-9.]+)[,\s%20]+([0-9.]+)/i);
+      if (match && match[1] && match[2]) {
+        updateLinks(match[1], match[2], address);
+      } else {
+        updateLinks(defaultLat, defaultLng, address);
+      }
     } else {
-      updateLinks(defaultLat, defaultLng);
+      updateLinks(defaultLat, defaultLng, defaultAddress);
     }
 
     if (typeof modal.showModal === 'function') {
@@ -513,8 +531,11 @@
     document.body.style.overflow = '';
   }
 
-  // Intercept click on any contact card with map or geo: link
+  // Intercept click on any contact card with map or geo: link outside the navigation modal
   document.addEventListener('click', function(e) {
+    if (e.target.closest('#navigation-modal')) {
+      return;
+    }
     const trigger = e.target.closest('[data-map-modal="true"], a[href^="geo:"]');
     if (trigger) {
       e.preventDefault();

@@ -102,7 +102,7 @@ showFooterLinks = false
 [[params.contacts]]
     label = "مسیریابی و آدرس"
     value = "مهرشهر - خیابان ۱۱۱ - نبش عرفان"
-    url = "geo:35.800922, 50.904596"
+    url = "geo:35.800922,50.904596?q=35.800922,50.904596"
     icon = "fa fa-map-marker"
 
 [[params.contacts]]
