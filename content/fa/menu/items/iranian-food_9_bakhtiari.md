@@ -8,5 +8,5 @@ category_id: iranian-food
 ingredients_fa: [۱۶۰ گرم راسته گوسفندی, ۱۶۰ گرم فیله مرغ]
 ingredients_en: [160g Lamb Sirloin, 160g Chicken Fillet]
 vegan: false
-over: true
+over: false
 ---
