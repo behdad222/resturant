@@ -2,7 +2,7 @@
 name_fa: "شیخ مانی"
 name_en: "Sheikh Money"
 weight: 23
-price: 850
+price: 1550
 type: item
 category_id: boiling
 vegan: false
