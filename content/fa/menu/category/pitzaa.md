@@ -1,6 +1,6 @@
 ---
 title: "پیترا"
-weight: 53
+weight: 66
 header_menu: true
 type: category
 category_id: pitza
