@@ -1,5 +1,5 @@
 ---
-name_fa: "چیکن اسپشیال برگر"
+name_fa: "بیف اسپشیال برگر"
 weight: 5
 price: 1500
 type: item
