@@ -2,7 +2,7 @@
 name_fa: "بیسکویت لوتوس"
 name_en: "Lotus Biscuit"
 weight: 22
-price: 850
+price: 1250
 type: item
 category_id: boiling
 vegan: false
