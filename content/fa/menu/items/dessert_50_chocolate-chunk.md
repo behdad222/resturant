@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [تکه‌های شکلات واقعی, گردو]
 ingredients_en: [Real Chocolate Chunks, Walnuts]
 vegan: false
-over: true
+over: false
 ---
