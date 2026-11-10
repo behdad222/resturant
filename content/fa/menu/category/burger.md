@@ -1,6 +1,6 @@
 ---
 title: "برگر"
-weight: 54
+weight: 67
 header_menu: true
 type: category
 category_id: burger
