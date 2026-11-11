@@ -1,5 +1,5 @@
 ---
-name_fa: "سالاد لیو"
+name_fa: "سالاد لبو"
 weight: 1
 price: 800
 type: item
