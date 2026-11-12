@@ -1,5 +1,5 @@
 ---
-name_fa: "سالاد سزار"
+name_fa: "سالاد سزار سوخاری "
 name_en: "Caesar Salad"
 weight: 1
 price: 1000
