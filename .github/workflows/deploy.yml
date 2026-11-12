@@ -1,3 +1,4 @@
+
 name: Build and Deploy to Server
 
 on:
@@ -7,42 +8,64 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: "deploy"
+  group: deploy
   cancel-in-progress: false
+
+permissions:
+  contents: read
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
+      # 3. Install Dart Sass
+      - name: Install Dart Sass
+        run: |
+          npm install -g sass
+          SASS_PATH="$(command -v sass)"
+          ln -sf "$SASS_PATH" "$(dirname "$SASS_PATH")/dart-sass"
+
+          sass --version
+          dart-sass --version
+
+      # 4. Setup Hugo Extended
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.136.2'
           extended: true
 
+      # 5. Build Hugo Site
       - name: Build Hugo Site
-        run: hugo --minify
+        run: |
+          hugo version
+          hugo --minify
 
+      # 6. Deploy to Server
       - name: Deploy to Server via SSH & Rsync
-        uses: easingthemes/ssh-deploy@main
+        uses: easingthemes/ssh-deploy@v5.1.0
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i --delete"
-          SOURCE: "public/"
           REMOTE_HOST: ${{ secrets.SERVER_HOST }}
           REMOTE_USER: ${{ secrets.SERVER_USER }}
           REMOTE_PORT: ${{ secrets.SERVER_PORT || '22' }}
+          SOURCE: 'public/'
           TARGET: ${{ secrets.SERVER_TARGET_DIR }}
-          EXCLUDE: "/.git*, /node_modules/"
+          ARGS: '-az --delete'
+          EXCLUDE: '/.git*, /node_modules/'
           SCRIPT_AFTER: |
             echo "Deploy completed successfully!"
