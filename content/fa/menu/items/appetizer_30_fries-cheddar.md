@@ -5,8 +5,8 @@ weight: 30
 price: 530
 type: item
 category_id: appetizer
-ingredients_fa: []
+ingredients_fa: [سیب زمینی, دیپ چدار, سس سالسا]
 ingredients_en: []
-vegan: false
+vegan: true
 over: false
 ---

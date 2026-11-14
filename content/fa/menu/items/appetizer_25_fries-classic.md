@@ -5,8 +5,8 @@ weight: 25
 price: 430
 type: item
 category_id: appetizer
-ingredients_fa: []
+ingredients_fa: [سیب زمینی, سس سالسا]
 ingredients_en: []
-vegan: false
+vegan: true
 over: false
 ---

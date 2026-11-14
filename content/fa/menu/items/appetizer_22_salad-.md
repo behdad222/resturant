@@ -5,6 +5,7 @@ weight: 20
 price: 750
 type: item
 category_id: appetizer
+ingredients_fa: [کاهو پیچ, خیار, سیر سبز, زیتون, سس مخصوص, گردو, میکرو گرین]
 vegan: true
 over: false
 ---

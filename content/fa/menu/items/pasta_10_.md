@@ -1,13 +1,13 @@
 ---
-name_fa: "فرش بیف آلفردو"
+name_fa: "فتوچینی بیف آلفردو"
 name_en: "Fresh Beef Fettuccine Alfredo"
 weight: 10
 price: 1300
 type: item
 category_id: pasta
-ingredients_fa: []
+ingredients_fa: [فتوچینی, قارچ, خامه, سس مخصوی, راسته گوساله]
 ingredients_en: []
-description_fa: "فتوچینی"
+description_fa: "فتوچینی تازه و دست‌ساز"
 description_en: "Fettuccine"
 vegan: false
 over: false
