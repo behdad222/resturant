@@ -1,5 +1,6 @@
 ---
-name_fa: "پیترا رست بیف"
+name_fa: "پیتزا رست بیف"
+name_en: "Roast Beef Pizza"
 weight: 10
 price: 1700
 type: item

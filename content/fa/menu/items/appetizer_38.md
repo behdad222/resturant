@@ -1,5 +1,6 @@
 ---
 name_fa: "نان سیر"
+name_en: "Garlic Bread"
 weight: 38
 price: 750
 type: item

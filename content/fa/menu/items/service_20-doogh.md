@@ -1,6 +1,6 @@
 ---
 name_fa: "دوغ"
-name_en: "Doogh"
+name_en: "Persian Mint Doogh"
 weight: 20
 price: 150
 type: item

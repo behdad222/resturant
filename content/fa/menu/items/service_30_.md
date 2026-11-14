@@ -1,6 +1,6 @@
 ---
 name_fa: "نوشابه فانتا"
-name_en: ""
+name_en: "Fanta Orange"
 weight: 30
 price: 100
 type: item

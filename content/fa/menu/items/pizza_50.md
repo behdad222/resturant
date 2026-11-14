@@ -1,5 +1,6 @@
 ---
-name_fa: "پیتزا بلاورد"
+name_fa: "پیتزا بلا ورده"
+name_en: "Bella Verde Pizza"
 weight: 50
 price: 1180
 type: item

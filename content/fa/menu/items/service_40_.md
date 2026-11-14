@@ -1,6 +1,6 @@
 ---
 name_fa: "نوشابه اسپرایت"
-name_en: ""
+name_en: "Sprite"
 weight: 40
 price: 100
 type: item

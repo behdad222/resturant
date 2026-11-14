@@ -1,6 +1,6 @@
 ---
 name_fa: "سالاد سزار سوخاری"
-name_en: "Caesar Salad"
+name_en: "Crispy Chicken Caesar Salad"
 weight: 10
 price: 1000
 type: item

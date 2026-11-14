@@ -1,7 +1,8 @@
 ---
-name_fa: "پیتزا چیکن بیف"
-weight: 35
-price: 1600
+name_fa: "پیتزا چیکن پستو"
+name_en: "Chicken Pesto Pizza"
+weight: 30
+price: 1450
 type: item
 category_id: pizza
 ingredients_fa: []

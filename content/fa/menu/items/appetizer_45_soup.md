@@ -1,5 +1,6 @@
 ---
 name_fa: "سوپ اسفناج"
+name_en: "Cream of Spinach Soup"
 weight: 45
 price: 800
 type: item

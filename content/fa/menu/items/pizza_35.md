@@ -1,7 +1,8 @@
 ---
-name_fa: "پیتزا چیکن با اسفناچ و پنیر بلوچیز"
-weight: 45
-price: 1550
+name_fa: "پیتزا چیکن بیف"
+name_en: "Chicken & Beef Pizza"
+weight: 35
+price: 1600
 type: item
 category_id: pizza
 ingredients_fa: []

@@ -1,5 +1,6 @@
 ---
 name_fa: "پیتزا پپرونی"
+name_en: "Pepperoni Pizza"
 weight: 40
 price: 1350
 type: item

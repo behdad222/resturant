@@ -1,5 +1,6 @@
 ---
 name_fa: "سیب‌زمینی با بیکن"
+name_en: "Fries with Bacon"
 weight: 36
 price: 780
 type: item

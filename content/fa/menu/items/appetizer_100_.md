@@ -1,5 +1,6 @@
 ---
 name_fa: "ترشی انبه"
+name_en: "Spicy Mango Pickle"
 weight: 100
 price: 700
 type: item
