@@ -5,7 +5,7 @@ weight: 30
 price: 1450
 type: item
 category_id: pizza
-ingredients_fa: []
+ingredients_fa: [فیله مرغ مزه‌دار شده, سس پستو, پنیر موزارلا, قارچ بلانچ, پاپریکا رنگی, زیتون]
 ingredients_en: []
 vegan: false
 over: false

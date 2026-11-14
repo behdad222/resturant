@@ -5,7 +5,7 @@ weight: 35
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: []
+ingredients_fa: [رشته‌های ماهیچه گوساله, فیله مرغ مزه‌دار شده, سس آلفردو, پنیر موزارلا, قارچ بلانچ شده, پاپریکا رنگی, زیتون]
 ingredients_en: []
 vegan: false
 over: false

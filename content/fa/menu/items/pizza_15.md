@@ -5,7 +5,7 @@ weight: 15
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: []
+ingredients_fa: [بیکن, سس ریحان ایتالیایی, قارچ بلانچ شده, زیتون, پنیر موزارلا]
 ingredients_en: []
 vegan: false
 over: false

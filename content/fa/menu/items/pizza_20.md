@@ -5,7 +5,7 @@ weight: 20
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: []
+ingredients_fa: [بوقلمون طعم‌دار شده, سس آلفردو, پنیر موزارلا, قارچ بلانچ, پاریکا رنگی, زیتون]
 ingredients_en: []
 vegan: false
 over: false
