@@ -8,5 +8,5 @@ category_id: iranian-food
 ingredients_fa: [۲۸۰ گرم راسته گوسفندی]
 ingredients_en: [280g Lamb Sirloin]
 vegan: false
-over: false
+over: true
 ---
