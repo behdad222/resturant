@@ -1,8 +1,8 @@
 ---
-name_fa: "چیز برگر"
-name_en: "Cheeseburger"
+name_fa: "برگر کلاسیک"
+name_en: "Classic Burger"
 weight: 40
-price: 1200
+price: 1150
 type: item
 category_id: burger
 ingredients_fa: []

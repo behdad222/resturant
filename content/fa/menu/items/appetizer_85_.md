@@ -1,8 +1,8 @@
 ---
-name_fa: "ماست بادمجان"
-name_en: "Smoked Eggplant Yogurt"
+name_fa: "زیتون پرورده"
+name_en: "Persian Marinated Olives"
 weight: 85
-price: 350
+price: 500
 type: item
 category_id: appetizer
 ingredients_fa: []

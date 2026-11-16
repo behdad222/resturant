@@ -1,8 +1,8 @@
 ---
-name_fa: "بیف چیز برگر"
-name_en: "Beef Cheeseburger"
+name_fa: "بیف برگر"
+name_en: "Beef Burger"
 weight: 25
-price: 1300
+price: 1250
 type: item
 category_id: burger
 ingredients_fa: []

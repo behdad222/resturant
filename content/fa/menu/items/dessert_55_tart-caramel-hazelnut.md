@@ -1,0 +1,12 @@
+---
+name_fa: "کوکی تارت کارامل و فندق"
+name_en: "Caramel & Hazelnut Cookie Tart"
+weight: 55
+price: 360
+type: item
+category_id: dessert
+ingredients_fa: [کارامل, پرالین فندق]
+ingredients_en: [Caramel, Hazelnut Praline]
+vegan: false
+over: false
+---

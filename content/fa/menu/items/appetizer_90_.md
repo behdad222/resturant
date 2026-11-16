@@ -1,8 +1,8 @@
 ---
-name_fa: "ماست اسفناج"
-name_en: "Spinach Yogurt (Borani)"
+name_fa: "ترشی انبه"
+name_en: "Spicy Mango Pickle"
 weight: 90
-price: 350
+price: 700
 type: item
 category_id: appetizer
 ingredients_fa: []

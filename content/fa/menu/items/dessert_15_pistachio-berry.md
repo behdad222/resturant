@@ -1,0 +1,12 @@
+---
+name_fa: "کوکی پسته و بری"
+name_en: "Pistachio & Berry Cookie"
+weight: 15
+price: 380
+type: item
+category_id: dessert
+ingredients_fa: [کوکی پسته, پرالین پسته, کانفی بری]
+ingredients_en: [Pistachio Cookie, Pistachio Praline, Berry Confit]
+vegan: false
+over: true
+---

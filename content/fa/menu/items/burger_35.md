@@ -1,8 +1,8 @@
 ---
-name_fa: "رویال برگر"
-name_en: "Royal Burger"
+name_fa: "چیز برگر"
+name_en: "Cheeseburger"
 weight: 35
-price: 1250
+price: 1200
 type: item
 category_id: burger
 ingredients_fa: []

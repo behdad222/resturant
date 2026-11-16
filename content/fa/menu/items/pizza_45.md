@@ -1,11 +1,11 @@
 ---
-name_fa: "پیتزا چیکن با اسفناج و پنیر بلوچیز"
-name_en: "Chicken, Spinach & Blue Cheese Pizza"
+name_fa: "پیتزا بوقلمون با سس قارچ"
+name_en: "Turkey Pizza with Mushroom Sauce"
 weight: 45
-price: 1550
+price: 1600
 type: item
 category_id: pizza
-ingredients_fa: [فیله مرغ مزه‌دار شده, بیبی اسفناچ, سس مخصوص,پنیر بلوچیز, پنیر موزارلا, قارچ بلانچ شده, پاپریکا رنگی, زیتون]
+ingredients_fa: [بوقلمون طعم‌دار شده, سس آلفردو, پنیر موزارلا, قارچ بلانچ, پاریکا رنگی, زیتون]
 ingredients_en: []
 vegan: false
 over: false

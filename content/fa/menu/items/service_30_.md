@@ -1,6 +1,6 @@
 ---
-name_fa: "نوشابه فانتا"
-name_en: "Fanta Orange"
+name_fa: "نوشابه کوکاکولا زیرو"
+name_en: "Coca-Cola Zero"
 weight: 30
 price: 100
 type: item

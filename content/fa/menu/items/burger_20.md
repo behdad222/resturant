@@ -1,8 +1,8 @@
 ---
-name_fa: "بیف رویال برگر"
-name_en: "Beef Royal Burger"
+name_fa: "بیف چیز برگر"
+name_en: "Beef Cheeseburger"
 weight: 20
-price: 1350
+price: 1300
 type: item
 category_id: burger
 ingredients_fa: []

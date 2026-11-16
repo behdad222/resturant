@@ -1,11 +1,11 @@
 ---
-name_fa: "پیتزا چیکن پستو"
-name_en: "Chicken Pesto Pizza"
+name_fa: "پیتزا بیکن و ریحان"
+name_en: "Bacon & Basil Pizza"
 weight: 30
-price: 1450
+price: 1600
 type: item
 category_id: pizza
-ingredients_fa: [فیله مرغ مزه‌دار شده, سس پستو, پنیر موزارلا, قارچ بلانچ, پاپریکا رنگی, زیتون]
+ingredients_fa: [بیکن, سس ریحان ایتالیایی, قارچ بلانچ شده, زیتون, پنیر موزارلا]
 ingredients_en: []
 vegan: false
 over: false

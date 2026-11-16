@@ -1,8 +1,8 @@
 ---
-name_fa: "برگر کلاسیک"
-name_en: "Classic Burger"
+name_fa: "رویال برگر"
+name_en: "Royal Burger"
 weight: 30
-price: 1150
+price: 1250
 type: item
 category_id: burger
 ingredients_fa: []

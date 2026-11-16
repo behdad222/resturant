@@ -1,11 +1,11 @@
 ---
-name_fa: "پیتزا بیکن و ریحان"
-name_en: "Bacon & Basil Pizza"
+name_fa: "پیتزا سیر و استیک"
+name_en: "Garlic Steak Pizza"
 weight: 15
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: [بیکن, سس ریحان ایتالیایی, قارچ بلانچ شده, زیتون, پنیر موزارلا]
+ingredients_fa: [فیله گوساله مزه‌دار شده, سس سیر, پنیز موزارلا, قارچ بلانچ شده, پاپریکا رنگی, زیتون]
 ingredients_en: []
 vegan: false
 over: false
