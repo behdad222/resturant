@@ -8,5 +8,5 @@ category_id: appetizer
 ingredients_fa: [سیب زمینی, سس مخصوص]
 ingredients_en: []
 vegan: true
-over: false
+over: true
 ---
