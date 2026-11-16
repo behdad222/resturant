@@ -6,7 +6,7 @@ price: 1350
 type: item
 category_id: pizza
 ingredients_fa: [پپرونی, سس مخصوص, پنیر موزارلا, قارچ بلانچ شده, پاپریکا رنگی, زیتون]
-ingredients_en: []
+ingredients_en: [Pepperoni, Special Sauce, Mozzarella Cheese, Blanched Mushrooms, Bell Peppers, Olives]
 vegan: false
 over: false
 ---

@@ -1,5 +1,6 @@
 ---
 name_fa: "دنده برگر"
+name_en: "Ribs Burger"
 weight: 5
 price: 1600
 type: item

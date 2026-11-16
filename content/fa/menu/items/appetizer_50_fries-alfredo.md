@@ -6,7 +6,7 @@ price: 600
 type: item
 category_id: appetizer
 ingredients_fa: [سیب زمینی, سس آلفردو, سس سالسا]
-ingredients_en: []
+ingredients_en: [French Fries, Alfredo Sauce, Salsa Sauce]
 vegan: true
 over: false
 ---

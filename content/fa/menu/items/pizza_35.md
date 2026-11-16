@@ -6,7 +6,7 @@ price: 1450
 type: item
 category_id: pizza
 ingredients_fa: [فیله مرغ مزه‌دار شده, سس پستو, پنیر موزارلا, قارچ بلانچ, پاپریکا رنگی, زیتون]
-ingredients_en: []
+ingredients_en: [Marinated Chicken Fillet, Pesto Sauce, Mozzarella Cheese, Blanched Mushrooms, Bell Peppers, Olives]
 vegan: false
 over: false
 ---

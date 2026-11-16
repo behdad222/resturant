@@ -6,7 +6,7 @@ price: 780
 type: item
 category_id: appetizer
 ingredients_fa: [سیب زمینی, بیکن, دیپ چدار, سس سالسا]
-ingredients_en: []
+ingredients_en: [French Fries, Bacon, Cheddar Dip, Salsa Sauce]
 vegan: false
 over: false
 ---

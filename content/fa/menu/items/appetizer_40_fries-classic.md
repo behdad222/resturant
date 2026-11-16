@@ -6,7 +6,7 @@ price: 430
 type: item
 category_id: appetizer
 ingredients_fa: [سیب زمینی, سس سالسا]
-ingredients_en: []
+ingredients_en: [French Fries, Salsa Sauce]
 vegan: true
 over: false
 ---

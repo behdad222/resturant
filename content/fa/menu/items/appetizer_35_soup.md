@@ -6,7 +6,7 @@ price: 800
 type: item
 category_id: appetizer
 ingredients_fa: [قارچ بلانچ شده, مرغ, اسفناج]
-ingredients_en: []
+ingredients_en: [Blanched Mushrooms, Chicken, Spinach]
 vegan: false
 over: false
 ---
