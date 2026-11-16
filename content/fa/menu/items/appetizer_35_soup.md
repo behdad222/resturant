@@ -5,8 +5,8 @@ weight: 35
 price: 800
 type: item
 category_id: appetizer
-ingredients_fa: [قارچ بلانچ شده, مرغ, اسفناج]
-ingredients_en: [Blanched Mushrooms, Chicken, Spinach]
+ingredients_fa: [اسفناج تازه, مرغ, قارچ بلانچ شده]
+ingredients_en: [Fresh Spinach, Chicken, Blanched Mushrooms]
 vegan: false
 over: false
 ---

@@ -5,8 +5,8 @@ weight: 20
 price: 800
 type: item
 category_id: appetizer
-ingredients_fa: [لبو, سس مخصوص, پنیر فتا, سیاه‌دانه, میکرو گرین]
-ingredients_en: [Beetroot, Special Dressing, Feta Cheese, Nigella Seeds, Microgreens]
+ingredients_fa: [لبو, پنیر فتا, میکرو گرین, سیاه‌دانه, سس مخصوص]
+ingredients_en: [Beetroot, Feta Cheese, Microgreens, Nigella Seeds, Special Dressing]
 vegan: true
 over: false
 ---
