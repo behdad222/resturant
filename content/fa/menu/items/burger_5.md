@@ -1,5 +1,5 @@
 ---
-name_fa: "دنده برگرد"
+name_fa: "دنده برگر"
 weight: 5
 price: 1600
 type: item
