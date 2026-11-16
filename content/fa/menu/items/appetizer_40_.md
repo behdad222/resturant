@@ -8,5 +8,5 @@ category_id: appetizer
 ingredients_fa: [نخود, ارده, روغن زیتون, ماهیچه گوساله]
 ingredients_en: []
 vegan: false
-over: false
+over: true
 ---
