@@ -89,7 +89,7 @@ showFooterLinks = false
 
 [[params.contacts]]
     label = "ساعات کاری"
-    value = "هر روز ۱۵:۳۰ الی ۲۳:۳۰"
+    value = "هر روز ۱۱:۰۰ الی ۲۳:۳۰"
     url = ""
     icon = "fa fa-clock-o"
 
