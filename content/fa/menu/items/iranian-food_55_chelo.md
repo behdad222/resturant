@@ -1,7 +1,7 @@
 ---
 name_fa: "چلو"
 name_en: "Chelo"
-weight: 50
+weight: 55
 price: 400
 type: item
 category_id: iranian-food
