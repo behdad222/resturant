@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [کرم‌پنیر, آجیل کاراملی]
 ingredients_en: [Cream Cheese, Caramelized Nuts]
 vegan: false
-over: false
+over: true
 ---

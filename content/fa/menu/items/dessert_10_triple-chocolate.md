@@ -8,5 +8,5 @@ category_id: dessert
 ingredients_fa: [شکلات تلخ, شکلات شیری, شکلات سفید]
 ingredients_en: [Dark Chocolate, Milk Chocolate, White Chocolate]
 vegan: false
-over: false
+over: true
 ---
