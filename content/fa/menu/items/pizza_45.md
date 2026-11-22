@@ -8,5 +8,5 @@ category_id: pizza
 ingredients_fa: [بوقلمون طعم‌دار شده, سس آلفردو, پنیر موزارلا, قارچ بلانچ, پاپریکا رنگی, زیتون]
 ingredients_en: [Marinated Turkey, Alfredo Sauce, Mozzarella Cheese, Blanched Mushrooms, Bell Peppers, Olives]
 vegan: false
-over: true
+over: false
 ---

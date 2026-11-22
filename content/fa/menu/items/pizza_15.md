@@ -8,5 +8,5 @@ category_id: pizza
 ingredients_fa: [فیله گوساله مزه‌دار شده, سس سیر, پنیر موزارلا, قارچ بلانچ شده, پاپریکا رنگی, زیتون]
 ingredients_en: [Marinated Beef Tenderloin, Garlic Sauce, Mozzarella Cheese, Blanched Mushrooms, Bell Peppers, Olives]
 vegan: false
-over: true
+over: false
 ---

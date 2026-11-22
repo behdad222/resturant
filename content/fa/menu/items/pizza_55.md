@@ -8,5 +8,5 @@ category_id: pizza
 ingredients_fa: [نان بیس, سس سیر, پنیر موزارلا]
 ingredients_en: [Pizza Base Bread, Garlic Sauce, Mozzarella Cheese]
 vegan: false
-over: true
+over: false
 ---

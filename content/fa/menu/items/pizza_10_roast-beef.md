@@ -8,5 +8,5 @@ category_id: pizza
 ingredients_fa: [رشته‌های ماهیچه گوساله, سس آلفردو, پنیر موزارلا, قارچ بلانچ شده, زیتون, پاپریکا رنگی]
 ingredients_en: [Shredded Beef Shank, Alfredo Sauce, Mozzarella Cheese, Blanched Mushrooms, Olives, Bell Peppers]
 vegan: false
-over: true
+over: false
 ---
