@@ -8,5 +8,5 @@ category_id: appetizer
 ingredients_fa: [ماهیچه گوساله, نخود, ارده, روغن زیتون]
 ingredients_en: [Beef Shank, Chickpeas, Tahini, Olive Oil]
 vegan: false
-over: true
+over: false
 ---
