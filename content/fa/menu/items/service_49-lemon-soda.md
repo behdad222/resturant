@@ -1,5 +1,5 @@
 ---
-name_fa: "آب گازدار"
+name_fa: " آب گازدار با طعم لیمو "
 name_en: "Lemon Soda"
 weight: 50
 price: 100
