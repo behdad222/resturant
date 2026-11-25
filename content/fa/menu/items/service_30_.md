@@ -2,7 +2,7 @@
 name_fa: "نوشابه کوکاکولا زیرو"
 name_en: "Coca-Cola Zero"
 weight: 30
-price: 100
+price: 110
 type: item
 category_id: service
 ingredients_fa: []

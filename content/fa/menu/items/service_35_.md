@@ -2,7 +2,7 @@
 name_fa: "نوشابه فانتا"
 name_en: "Fanta Orange"
 weight: 35
-price: 100
+price: 110
 type: item
 category_id: service
 ingredients_fa: []

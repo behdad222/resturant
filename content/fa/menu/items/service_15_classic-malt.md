@@ -2,7 +2,7 @@
 name_fa: "ماءالشعیر کلاسیک"
 name_en: "Classic Malt"
 weight: 15
-price: 400
+price: 500
 type: item
 category_id: service
 ingredients_fa: []
