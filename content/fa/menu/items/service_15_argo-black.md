@@ -1,7 +1,7 @@
 ---
 name_fa: "آرگو بلک"
 name_en: "Argo Black"
-weight: 10
+weight: 15
 price: 110
 type: item
 category_id: service
