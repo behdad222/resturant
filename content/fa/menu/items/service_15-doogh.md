@@ -1,7 +1,7 @@
 ---
 name_fa: "دوغ"
 name_en: "Persian Mint Doogh"
-weight: 20
+weight: 15
 price: 150
 type: item
 category_id: service
