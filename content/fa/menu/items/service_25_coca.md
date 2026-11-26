@@ -2,7 +2,7 @@
 name_fa: "نوشابه کوکاکولا"
 name_en: "Coca-Cola"
 weight: 25
-price: 100
+price: 110
 type: item
 category_id: service
 ingredients_fa: []

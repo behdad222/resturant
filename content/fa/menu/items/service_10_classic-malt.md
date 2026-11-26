@@ -1,13 +1,13 @@
 ---
 name_fa: "ماءالشعیر کلاسیک"
 name_en: "Classic Malt"
-weight: 15
-price: 400
+weight: 10
+price: 500
 type: item
 category_id: service
 ingredients_fa: []
 ingredients_en: []
-description_fa: "هوفن‌برگ شیشه‌ای"
+description_fa: "بلومبرگ شیشه‌ای"
 description_en: "Hofenberg Glass Bottle"
 vegan: false
 over: false

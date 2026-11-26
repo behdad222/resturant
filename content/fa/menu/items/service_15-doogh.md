@@ -1,8 +1,8 @@
 ---
-name_fa: "آرگو بلک"
-name_en: "Argo Black"
-weight: 10
-price: 100
+name_fa: "دوغ"
+name_en: "Persian Mint Doogh"
+weight: 15
+price: 150
 type: item
 category_id: service
 ingredients_fa: []
