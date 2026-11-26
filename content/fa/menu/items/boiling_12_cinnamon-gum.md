@@ -1,7 +1,7 @@
 ---
 name_fa: "آدامس دارچین"
 name_en: "Cinnamon Gum"
-weight: 12
+weight: 13
 price: 1250
 type: item
 category_id: boiling

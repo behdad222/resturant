@@ -1,6 +1,6 @@
 ---
-name_fa: "آب"
-name_en: "Water"
+name_fa: "آب معدنی"
+name_en: "Mineral Water"
 weight: 50
 price: 100
 type: item

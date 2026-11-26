@@ -5,8 +5,8 @@ weight: 30
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: [بیکن, سس ریحان ایتالیایی, قارچ بلانچ شده, زیتون, پنیر موزارلا]
-ingredients_en: [Bacon, Italian Basil Sauce, Blanched Mushrooms, Olives, Mozzarella Cheese]
+ingredients_fa: [بیکن, قارچ بلانچ شده, پنیر موزارلا, زیتون, سس ریحان ایتالیایی]
+ingredients_en: [Bacon, Blanched Mushrooms, Mozzarella Cheese, Olives, Italian Basil Sauce]
 vegan: false
 over: false
 ---

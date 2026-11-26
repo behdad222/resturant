@@ -5,8 +5,8 @@ weight: 20
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: [رشته‌های ماهیچه گوساله, فیله مرغ مزه‌دار شده, پنیر موزارلا, قارچ بلانچ شده, پاپریکا رنگی, زیتون, سس آلفردو]
-ingredients_en: [Shredded Beef Shank, Marinated Chicken Fillet, Mozzarella Cheese, Blanched Mushrooms, Bell Peppers, Olives, Alfredo Sauce]
+ingredients_fa: [رشته‌های ماهیچه گوساله, فیله مرغ مزه‌دار شده, قارچ بلانچ شده, پنیر موزارلا, پاپریکا رنگی, زیتون, سس آلفردو]
+ingredients_en: [Shredded Beef Shank, Marinated Chicken Fillet, Blanched Mushrooms, Mozzarella Cheese, Bell Peppers, Olives, Alfredo Sauce]
 vegan: false
 over: false
 ---

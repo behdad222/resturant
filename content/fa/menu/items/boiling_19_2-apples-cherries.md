@@ -1,7 +1,7 @@
 ---
 name_fa: "دو سیب آلبالو"
 name_en: "Double Apple Sour Cherry"
-weight: 19
+weight: 22
 price: 850
 type: item
 category_id: boiling

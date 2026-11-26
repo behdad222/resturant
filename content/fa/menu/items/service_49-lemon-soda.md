@@ -1,7 +1,7 @@
 ---
-name_fa: " آب گازدار با طعم لیمو "
+name_fa: "آب گازدار با طعم لیمو"
 name_en: "Lemon Soda"
-weight: 50
+weight: 45
 price: 100
 type: item
 category_id: service

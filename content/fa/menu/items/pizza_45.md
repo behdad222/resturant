@@ -5,8 +5,8 @@ weight: 45
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: [بوقلمون طعم‌دار شده, سس آلفردو, پنیر موزارلا, قارچ بلانچ, پاپریکا رنگی, زیتون]
-ingredients_en: [Marinated Turkey, Alfredo Sauce, Mozzarella Cheese, Blanched Mushrooms, Bell Peppers, Olives]
+ingredients_fa: [بوقلمون طعم‌دار شده, قارچ بلانچ شده, پنیر موزارلا, پاپریکا رنگی, زیتون, سس آلفردو]
+ingredients_en: [Marinated Turkey, Blanched Mushrooms, Mozzarella Cheese, Bell Peppers, Olives, Alfredo Sauce]
 vegan: false
 over: false
 ---

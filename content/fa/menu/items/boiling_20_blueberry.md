@@ -1,7 +1,7 @@
 ---
 name_fa: "بلوبری"
 name_en: "Blueberry"
-weight: 20
+weight: 23
 price: 850
 type: item
 category_id: boiling

@@ -1,7 +1,7 @@
 ---
 name_fa: "بیسکویت لوتوس"
 name_en: "Lotus Biscuit"
-weight: 13
+weight: 14
 price: 1250
 type: item
 category_id: boiling

@@ -1,7 +1,7 @@
 ---
 name_fa: "دو سیب"
 name_en: "Double Apple"
-weight: 17
+weight: 20
 price: 850
 type: item
 category_id: boiling

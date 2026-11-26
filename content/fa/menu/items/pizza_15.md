@@ -5,8 +5,8 @@ weight: 15
 price: 1600
 type: item
 category_id: pizza
-ingredients_fa: [فیله گوساله مزه‌دار شده, سس سیر, پنیر موزارلا, قارچ بلانچ شده, پاپریکا رنگی, زیتون]
-ingredients_en: [Marinated Beef Tenderloin, Garlic Sauce, Mozzarella Cheese, Blanched Mushrooms, Bell Peppers, Olives]
+ingredients_fa: [فیله گوساله مزه‌دار شده, قارچ بلانچ شده, پنیر موزارلا, پاپریکا رنگی, زیتون, سس سیر]
+ingredients_en: [Marinated Beef Tenderloin, Blanched Mushrooms, Mozzarella Cheese, Bell Peppers, Olives, Garlic Sauce]
 vegan: false
 over: false
 ---

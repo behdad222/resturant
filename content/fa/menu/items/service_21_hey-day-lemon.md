@@ -1,7 +1,7 @@
 ---
-name_fa: "ماءالشعیر لیمو "
-name_en: "Lemon Flavor"
-weight: 21
+name_fa: "ماءالشعیر لیمو"
+name_en: "Lemon Malt Beverage"
+weight: 22
 price: 110
 type: item
 category_id: service

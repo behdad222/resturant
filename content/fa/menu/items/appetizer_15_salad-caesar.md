@@ -5,8 +5,8 @@ weight: 15
 price: 1000
 type: item
 category_id: appetizer
-ingredients_fa: [کاهو پیچ, رول مرغ سوخاری, نان کروتان, پنیر پارمسان, سس سزار, گوجه, زیتون]
-ingredients_en: [Romaine Lettuce, Crispy Chicken Fillet, Croutons, Parmesan Cheese, Caesar Dressing, Olive]
+ingredients_fa: [کاهو پیچ, رول مرغ سوخاری, نان کروتان, پنیر پارمسان, گوجه, زیتون, سس سزار]
+ingredients_en: [Romaine Lettuce, Crispy Chicken Fillet, Croutons, Parmesan Cheese, Tomatoes, Olives, Caesar Dressing]
 vegan: false
 over: false
 ---

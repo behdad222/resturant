@@ -1,7 +1,7 @@
 ---
 name_fa: "هندوانه"
 name_en: "Watermelon"
-weight: 16
+weight: 19
 price: 950
 type: item
 category_id: boiling

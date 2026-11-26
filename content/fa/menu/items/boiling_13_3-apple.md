@@ -1,7 +1,7 @@
 ---
 name_fa: "سه سیب"
 name_en: "Triple Apple"
-weight: 13
+weight: 15
 price: 1250
 type: item
 category_id: boiling

@@ -1,7 +1,7 @@
 ---
 name_fa: "انگور"
 name_en: "Grape"
-weight: 14
+weight: 17
 price: 950
 type: item
 category_id: boiling

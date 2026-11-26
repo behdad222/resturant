@@ -1,7 +1,7 @@
 ---
 name_fa: "پرتقال نعنا"
 name_en: "Orange Mint"
-weight: 21
+weight: 24
 price: 850
 type: item
 category_id: boiling

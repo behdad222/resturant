@@ -1,7 +1,7 @@
 ---
 name_fa: "دو سیب شلیل"
 name_en: "Double Apple Nectarine"
-weight: 18
+weight: 21
 price: 850
 type: item
 category_id: boiling

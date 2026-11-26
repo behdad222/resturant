@@ -1,7 +1,7 @@
 ---
 name_fa: "شیخ مانی"
 name_en: "Sheikh Money"
-weight: 11
+weight: 12
 price: 1550
 type: item
 category_id: boiling

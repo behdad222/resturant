@@ -1,5 +1,5 @@
 ---
-title: "پاستا دست ساز"
+title: "پاستا دست‌ساز"
 weight: 50
 header_menu: true
 type: category

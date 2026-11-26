@@ -5,7 +5,7 @@ weight: 55
 price: 780
 type: item
 category_id: appetizer
-ingredients_fa: [سیب زمینی, بیکن, دیپ چدار, سس سالسا]
+ingredients_fa: [سیب‌زمینی, بیکن, دیپ چدار, سس سالسا]
 ingredients_en: [French Fries, Bacon, Cheddar Dip, Salsa Sauce]
 vegan: false
 over: false

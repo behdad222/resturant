@@ -1,6 +1,6 @@
 ---
 name_fa: "کوکی تریپل چاکلت وانیلی"
-name_en: "Triple Chocolate Cookie"
+name_en: "Vanilla Triple Chocolate Cookie"
 weight: 10
 price: 295
 type: item

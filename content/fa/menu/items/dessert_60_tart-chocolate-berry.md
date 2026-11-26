@@ -1,6 +1,6 @@
 ---
 name_fa: "کوکی تارت شکلات و بری"
-name_en: "Chocolate & Berry Cookie Tart"
+name_en: "Chocolate & Berry Tart Cookie"
 weight: 60
 price: 360
 type: item

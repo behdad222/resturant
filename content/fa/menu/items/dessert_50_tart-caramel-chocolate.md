@@ -1,6 +1,6 @@
 ---
 name_fa: "کوکی تارت کارامل و شکلات"
-name_en: "Caramel & Chocolate Cookie Tart"
+name_en: "Caramel & Chocolate Tart Cookie"
 weight: 50
 price: 360
 type: item

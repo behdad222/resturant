@@ -1,7 +1,7 @@
 ---
 name_fa: "کوکی تریپل چاکلت شکلاتی"
 name_en: "Triple Chocolate Cookie"
-weight: 10
+weight: 12
 price: 295
 type: item
 category_id: dessert

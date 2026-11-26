@@ -1,7 +1,7 @@
 ---
 name_fa: "انبه"
 name_en: "Mango"
-weight: 15
+weight: 18
 price: 950
 type: item
 category_id: boiling
