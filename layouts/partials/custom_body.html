@@ -475,24 +475,6 @@
   let defaultLng = '50.904596';
   let defaultAddress = 'مهرشهر - خیابان ۱۱۱ - نبش عرفان';
 
-  function updateLinks(lat, lng, label) {
-    const locLabel = (label || defaultAddress).trim();
-    if (linkGoogle) {
-      linkGoogle.href = 'https://www.google.com/maps/search/?api=1&query=' + lat + ',' + lng;
-    }
-    if (linkWaze) {
-      linkWaze.href = 'https://waze.com/ul?ll=' + lat + ',' + lng + '&navigate=yes';
-    }
-    if (linkNeshan) {
-      linkNeshan.href = 'https://neshan.org/maps/@' + lat + ',' + lng + ',16z';
-    }
-    if (linkBalad) {
-      linkBalad.href = 'https://balad.ir/location?latitude=' + lat + '&longitude=' + lng;
-    }
-    if (linkGeo) {
-      linkGeo.href = 'geo:' + lat + ',' + lng + '?q=' + lat + ',' + lng + (locLabel ? '(' + encodeURIComponent(locLabel) + ')' : '');
-    }
-  }
 
   function openModal(cardOrLink) {
     let address = defaultAddress;
@@ -502,16 +484,6 @@
       if (addressVal && address) {
         addressVal.textContent = address;
       }
-
-      const geoUrl = cardOrLink.getAttribute('href') || '';
-      const match = geoUrl.match(/geo:([0-9.]+)[,\s%20]+([0-9.]+)/i);
-      if (match && match[1] && match[2]) {
-        updateLinks(match[1], match[2], address);
-      } else {
-        updateLinks(defaultLat, defaultLng, address);
-      }
-    } else {
-      updateLinks(defaultLat, defaultLng, defaultAddress);
     }
 
     if (typeof modal.showModal === 'function') {

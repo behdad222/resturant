@@ -1,6 +1,6 @@
 ---
-name_fa: "سه سیب "
-name_en: "Triple Apple "
+name_fa: "سه سیب"
+name_en: "Triple Apple"
 weight: 13
 price: 1250
 type: item
