@@ -8,5 +8,5 @@ category_id: appetizer
 ingredients_fa: [کاهو پیچ, خیار, سیر سبز, زیتون, گردو, میکرو گرین, سس مخصوص]
 ingredients_en: [Romaine Lettuce, Cucumber, Green Garlic, Olives, Walnuts, Microgreens, Special Dressing]
 vegan: true
-over: false
+over: true
 ---
