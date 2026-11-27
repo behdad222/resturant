@@ -8,5 +8,5 @@ category_id: appetizer
 ingredients_fa: [سیب‌زمینی تنوری, سس مخصوص]
 ingredients_en: [Baked Potato, Special Sauce]
 vegan: true
-over: false
+over: true
 ---
