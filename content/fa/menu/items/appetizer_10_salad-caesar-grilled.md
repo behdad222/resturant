@@ -8,5 +8,5 @@ category_id: appetizer
 ingredients_fa: [کاهو پیچ, مرغ گریل, نان کروتان, پنیر پارمسان, گوجه, زیتون, سس سزار]
 ingredients_en: [Romaine Lettuce, Grilled Chicken, Croutons, Parmesan Cheese, Tomatoes, Olives, Caesar Dressing]
 vegan: false
-over: true
+over: false
 ---
